@@ -1,4 +1,4 @@
-# 地大新生手册
+# 地大新生手册 2020Version
 
 # 同志们辛苦了
 
@@ -11,8 +11,15 @@
 
 # 文档注意事项
 
-* `markdown`文档由`word`文档使用在线工具 https://word-to-markdown.herokuapp.com/ 转换而来，然后我稍微整理了下。但是由于文档的格式太不统一了，最后的`markdown`文档还是有很多需要修改和优化的地方
+* 初版
+  * `markdown`文档由`word`文档使用在线工具 https://word-to-markdown.herokuapp.com/ 转换而来，然后我稍微整理了下。但是由于文档的格式太不统一了，最后的`markdown`文档还是有很多需要修改和优化的地方
+  * `html`由`markdown`文档用`pandoc`生成
+* 后来我学会了gitbook 一切都很简单了
 
-* `html`由`markdown`文档用`pandoc`生成
+# 写给自己
 
+注意要使用
 
+`gitbook build ./ ./docs`
+
+来生成静态网页
